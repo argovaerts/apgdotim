@@ -42,6 +42,9 @@ jobs:
       run: |
         python bloglines.py make
 
+    - name: Set CNAME
+      run: echo "apg.im" > CNAME
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
