@@ -14,6 +14,6 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "@nishanths/zoom.js": "^3.1.0",
-    "hack": "^0.8.1"
+    "normalize.css": "^8.0.1"
   }
 }
